@@ -9,4 +9,11 @@ set colorcolumn=90
 set number
 
 
+#NerdTree
+let NERDTreeMapActivateNode='<right>'
+let NERDTreeShowHidden=1
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+
+
 
