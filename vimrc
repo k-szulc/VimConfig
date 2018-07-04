@@ -9,11 +9,12 @@ set colorcolumn=90
 set number
 
 
-#NerdTree
 let NERDTreeMapActivateNode='<right>'
 let NERDTreeShowHidden=1
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
+
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 
 
