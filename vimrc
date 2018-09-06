@@ -14,6 +14,7 @@ set foldmethod=indent
 set foldlevel=99
 
 nnoremap <space> za
+nnoremap <esc><esc> :noh<return>
 
 au BufNewFile,BufRead *.py
 	\ set tabstop=4 |
