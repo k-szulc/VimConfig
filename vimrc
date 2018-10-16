@@ -30,6 +30,13 @@ au BufNewFile,BufRead *.js, *.html, *.css
 	\ set softtabstop=2 |
 	\ set shiftwidth=2
 
+au BufNewFile,BufRead *.c
+	\ set smartindent |
+	\ set autoindent |
+	\ set tabstop=4 |
+	\ set shiftwidth=4 |
+	\ set expandtab |
+	\ set textwidth=120 |
 
 let NERDTreeMapActivateNode='<right>'
 let NERDTreeShowHidden=1
