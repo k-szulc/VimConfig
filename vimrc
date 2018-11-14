@@ -17,18 +17,46 @@ nnoremap <space> za
 nnoremap <esc><esc> :noh<return>
 
 au BufNewFile,BufRead *.py
+	\ set smartindent |
+	\ set autoindent |
 	\ set tabstop=4 |
 	\ set softtabstop=4 |
 	\ set shiftwidth=4 |
 	\ set textwidth=79 |
 	\ set expandtab |
-	\ set autoindent |
-	\ set fileformat=unix
+	\ set fileformat=unix |
 
-au BufNewFile,BufRead *.js, *.html, *.css
+au BufNewFile,BufRead *.php
+	\ set smartindent |
+	\ set autoindent |
+	\ set tabstop=4 |
+	\ set softtabstop=4 |
+	\ set shiftwidth=4 |
+	\ set textwidth=79 |
+	\ set expandtab |
+	\ set fileformat=unix |
+
+
+au BufNewFile,BufRead *.html
+	\ set smartindent |
+	\ set autoindent |
 	\ set tabstop=2 |
 	\ set softtabstop=2 |
-	\ set shiftwidth=2
+	\ set shiftwidth=2 |
+
+au BufNewFile,BufRead *.js
+	\ set smartindent |
+	\ set autoindent |
+	\ set tabstop=2 |
+	\ set softtabstop=2 |
+	\ set shiftwidth=2 |
+
+au BufNewFile,BufRead *.css
+	\ set smartindent |
+	\ set autoindent |
+	\ set tabstop=2 |
+	\ set softtabstop=2 |
+	\ set shiftwidth=2 |
 
 au BufNewFile,BufRead *.c
 	\ set smartindent |
